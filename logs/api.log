@@ -1,0 +1,114 @@
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T15:50:23+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T15:50:23+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T15:58:55+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T15:58:55+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T16:14:32+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T16:14:33+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T17:39:06+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T17:39:06+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T17:41:09+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T17:41:09+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T17:41:47+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T17:41:47+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T17:43:21+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T17:43:21+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T17:44:35+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T17:44:35+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T17:52:27+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T17:52:27+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T18:48:33+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T18:48:33+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T18:56:02+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T18:56:02+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T18:57:13+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T18:57:13+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:00:02+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:00:02+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:01:24+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:01:24+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:01:56+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:01:56+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:02:47+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:02:47+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:03:30+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:03:30+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:03:47+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:03:47+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:04:12+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:04:12+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:04:32+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:04:32+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:05:03+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:05:03+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:05:31+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:05:31+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:06:12+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:06:12+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:07:15+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:07:15+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:08:37+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:08:37+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:09:23+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:09:23+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:11:16+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:11:16+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:16:33+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:16:33+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:16:50+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:16:50+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:19:52+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:19:52+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:23:09+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:23:09+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:24:16+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:24:16+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:42:34+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:42:34+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:44:56+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:44:56+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:45:23+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:45:23+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:46:27+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:46:27+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:47:53+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:47:53+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T19:56:02+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T19:56:02+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:01:54+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:01:54+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:05:43+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:05:43+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:08:32+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:08:32+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:12:27+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:12:27+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:13:23+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:13:23+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:15:12+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:15:12+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:16:43+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:16:43+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:18:11+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:18:11+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:19:40+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:19:40+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:22:04+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:22:04+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:26:10+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:26:10+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:29:43+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:29:43+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:32:27+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:32:27+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:43:58+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:43:58+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:46:11+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:46:11+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T20:58:43+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T20:58:43+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-03T22:04:08+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-03T22:04:08+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-04T08:34:27+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-04T08:34:27+07:00","message":"Cache configured with redis."}
+{"level":"info","LOG_CONSOLE_ENABLED":true,"LOG_FILE_ENABLED":true,"LOG_FILE_FILENAME":"logs/api.log","LOG_FILE_MAX_SIZE":100,"LOG_FILE_MAX_AGE":7,"LOG_FILE_MAX_BACKUPS":0,"time":"2023-04-04T09:06:14+07:00","message":"Logging configured"}
+{"level":"info","time":"2023-04-04T09:06:14+07:00","message":"Cache configured with redis."}
