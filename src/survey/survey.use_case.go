@@ -136,7 +136,7 @@ func (u UseCaseHandler) Create(p *ParamCreate) error {
 	if err != nil {
 		return err
 	}
-
+	p.Ctx = u.Ctx
 	// set default value for undefined field
 	err = p.setDefaultValue(Survey{})
 	if err != nil {
@@ -155,11 +155,17 @@ func (u UseCaseHandler) Create(p *ParamCreate) error {
 		return app.NewError(http.StatusInternalServerError, err.Error())
 	}
 
+	err = p.ProcessArray(Survey{})
+	if err != nil {
+		return err
+	}
 	// invalidate cache
 	app.Cache().Invalidate(u.EndPoint())
 
+	// Array Relation
+
 	// save history (user activity), send webhook, etc
-	go u.Ctx.Hook("POST", "create", p.ID.String, p)
+	// go u.Ctx.Hook("POST", "create", p.ID.String, p)
 	return nil
 }
 
@@ -306,9 +312,60 @@ func (u *UseCaseHandler) setDefaultValue(old Survey) error {
 		u.ID = old.ID
 	}
 
-	// if !u.IsActive.Valid {
-	// 	u.IsActive.Set(true)
-	// }
+	if !u.IsActive.Valid {
+		u.IsActive.Set(true)
+	}
+
+	return nil
+}
+
+func (u *UseCaseHandler) ProcessArray(old Survey) error {
+	tx, err := u.Ctx.DB()
+	if err != nil {
+		return app.NewError(http.StatusInternalServerError, err.Error())
+	}
+
+	// questions one to many
+	if len(old.Questions) > 0 {
+		if u.Ctx.Action.Method == "PUT" {
+			//delete old survey data
+			err = tx.Delete(&Question{}, "survey_id = ?", old.ID.String).Error
+			if err != nil {
+				return err
+			}
+		}
+	}
+
+	if len(u.Questions) > 0 {
+		questions := []Question{}
+		for _, q := range u.Questions {
+			question := Question{}
+			question.ID = app.NewNullUUID()
+			question.SurveyID.Set(u.ID.String)
+			question.QuestionText.Set(q.QuestionText.String)
+
+			if len(q.Choises) > 0 {
+				choises := []Choise{}
+				for _, c := range q.Choises {
+					choise := Choise{}
+					choise.ID = app.NewNullUUID()
+					choise.QuestionID.Set(question.ID.String)
+					choise.ChoiseText.Set(c.ChoiseText.String)
+
+					choises = append(choises, choise)
+				}
+				err = tx.Create(&choises).Error
+				if err != nil {
+					return app.NewError(http.StatusInternalServerError, err.Error())
+				}
+			}
+			questions = append(questions, question)
+		}
+		err = tx.Create(&questions).Error
+		if err != nil {
+			return app.NewError(http.StatusInternalServerError, err.Error())
+		}
+	}
 
 	return nil
 }

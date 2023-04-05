@@ -5,14 +5,14 @@ import "github.com/survey-app/survey/app"
 // Survey is the main model of Survey data. It provides a convenient interface for app.ModelInterface
 type Survey struct {
 	app.Model
-	ID          app.NullUUID     `json:"id"          db:"m.id"           gorm:"column:id;primaryKey"`
-	Title       app.NullString   `json:"title"       db:"m.title"        gorm:"column:title"`
-	Description app.NullString   `json:"description" db:"m.description"  gorm:"column:description"`
-	IsActive    app.NullBool     `json:"is_active"   db:"m.is_active"    gorm:"column:is_active"`
-	CreatedAt   app.NullDateTime `json:"created_at"  db:"m.created_at"   gorm:"column:created_at"`
-	UpdatedAt   app.NullDateTime `json:"updated_at"  db:"m.updated_at"   gorm:"column:updated_at"`
-	DeletedAt   app.NullDateTime `json:"deleted_at"  db:"m.deleted_at"   gorm:"column:deleted_at"`
-	Questions   []Question       `json:"questions"   db:"survey.id={id}" gorm:"-"`
+	ID          app.NullUUID     `json:"id"          db:"m.id"              gorm:"column:id;primaryKey"`
+	Title       app.NullString   `json:"title"       db:"m.title"           gorm:"column:title"`
+	Description app.NullString   `json:"description" db:"m.description"     gorm:"column:description"`
+	IsActive    app.NullBool     `json:"is_active"   db:"m.is_active"       gorm:"column:is_active"`
+	CreatedAt   app.NullDateTime `json:"created_at"  db:"m.created_at"      gorm:"column:created_at"`
+	UpdatedAt   app.NullDateTime `json:"updated_at"  db:"m.updated_at"      gorm:"column:updated_at"`
+	DeletedAt   app.NullDateTime `json:"deleted_at"  db:"m.deleted_at,hide" gorm:"column:deleted_at"`
+	Questions   []Question       `json:"questions"   db:"survey.id={id}"    gorm:"-"`
 }
 
 // EndPoint returns the Survey end point, it used for cache key, etc.
@@ -76,42 +76,79 @@ type Question struct {
 	ID           app.NullUUID `json:"id"            db:"q.id"             gorm:"column:id"`
 	SurveyID     app.NullUUID `json:"survey.id"     db:"q.survey_id,hide" gorm:"column:survey_id"`
 	QuestionText app.NullText `json:"question_text" db:"q.question_text"  gorm:"column:question_text"`
+	Choises      []Choise     `json:"choices"       db:"question.id={id}" gorm:"-"`
 }
 
-// TableVersion returns the versions of the unit conversion table in the database.
+// TableVersion returns the versions of the questions table in the database.
 // Change this value with date format YY.MM.DDHHii when any table structure changes.
 func (Question) TableVersion() string {
 	return "28.06.291152"
 }
 
-// TableName returns the name of the unit conversion table in the database.
+// TableName returns the name of the questions table in the database.
 func (Question) TableName() string {
 	return "questions"
 }
 
-// TableAliasName returns the table alias name of the unit conversion table, used for querying.
+// TableAliasName returns the table alias name of the questions table, used for querying.
 func (Question) TableAliasName() string {
 	return "q"
 }
 
-// GetRelations returns the relations of the unit conversion data in the database, used for querying.
+// GetRelations returns the relations of the questions data in the database, used for querying.
 func (m *Question) GetRelations() map[string]map[string]any {
 	return m.Relations
 }
 
-// GetFilters returns the filter of the unit conversion data in the database, used for querying.
+// GetFilters returns the filter of the questions data in the database, used for querying.
 func (m *Question) GetFilters() []map[string]any {
 	return m.Filters
 }
 
-// GetFields returns list of the field of the unit conversion data in the database, used for querying.
+// GetFields returns list of the field of the questions data in the database, used for querying.
 func (m *Question) GetFields() map[string]map[string]any {
 	m.SetFields(m)
 	return m.Fields
 }
 
-// GetSchema returns the unit conversion schema, used for querying.
+// GetSchema returns the questions schema, used for querying.
 func (m *Question) GetSchema() map[string]any {
+	return m.SetSchema(m)
+}
+
+type Choise struct {
+	app.Model
+	ID         app.NullUUID `json:"id"          db:"c.id"               gorm:"column:id"`
+	QuestionID app.NullUUID `json:"question.id" db:"c.question_id,hide" gorm:"column:question_id"`
+	ChoiseText app.NullText `json:"choise_text" db:"c.choise_text"      gorm:"column:choise_text"`
+}
+
+func (Choise) TableVersion() string {
+	return "28.06.291152"
+}
+
+func (Choise) TableName() string {
+	return "choices"
+}
+
+func (Choise) TableAliasName() string {
+	return "c"
+}
+
+func (m *Choise) GetRelations() map[string]map[string]any {
+	return m.Relations
+}
+
+func (m *Choise) GetFilters() []map[string]any {
+	return m.Filters
+}
+
+func (m *Choise) GetFields() map[string]map[string]any {
+	m.SetFields(m)
+	return m.Fields
+}
+
+func (m *Choise) GetSchema() map[string]any {
 	return m.SetSchema(m)
 }
 

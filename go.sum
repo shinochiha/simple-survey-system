@@ -213,5 +213,5 @@ gorm.io/gorm v1.24.7-0.20230306060331-85eaf9eeda11 h1:9qNbmu21nNThCNnF5i2R3kw2aL
 gorm.io/gorm v1.24.7-0.20230306060331-85eaf9eeda11/go.mod h1:L4uxeKpfBml98NYqVqwAdmV1a2nBtAec/cf3fpucW/k=
 gorm.io/plugin/dbresolver v1.4.1 h1:Ug4LcoPhrvqq71UhxtF346f+skTYoCa/nEsdjvHwEzk=
 gorm.io/plugin/dbresolver v1.4.1/go.mod h1:CTbCtMWhsjXSiJqiW2R8POvJ2cq18RVOl4WGyT5nhNc=
-grest.dev/grest v0.0.0-20230329054921-d8575ad8e8f3 h1:ULoQInaDJE6A9tJm2OQzB04uFVuMXAY5OtmtISYaqsQ=
-grest.dev/grest v0.0.0-20230329054921-d8575ad8e8f3/go.mod h1:Jo8Nrew9G1qSMHJc4ksSVrPXCxaATdRQBpyZNNY3ffM=
+grest.dev/grest v0.0.0-20230404044808-0e375632b732 h1:bYkH+/V8QG7A2PEcSjF3dahdBR9QnYmPo7JI7jJMJnU=
+grest.dev/grest v0.0.0-20230404044808-0e375632b732/go.mod h1:Jo8Nrew9G1qSMHJc4ksSVrPXCxaATdRQBpyZNNY3ffM=
