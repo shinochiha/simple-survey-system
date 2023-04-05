@@ -65,3 +65,6 @@ cp .env-example .env && vi .env
 ```bash
 ./codegentemplate
 ```
+
+## Schema Databases
+![alt text](./storages/erd.png)
