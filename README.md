@@ -1,5 +1,8 @@
 # Survey System
 
+## Schema Databases
+![alt text](./storages/erd.png)
+
 ## Getting Started
 1. Make sure you have [Go](https://go.dev) installed.
 2. Clone the repo
@@ -65,6 +68,3 @@ cp .env-example .env && vi .env
 ```bash
 ./codegentemplate
 ```
-
-## Schema Databases
-![alt text](./storages/erd.png)
